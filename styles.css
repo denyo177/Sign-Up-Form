@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(../../Fonts/Norse-Bold.otf);
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    font-family: "Norse-Bold";
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sect-left {
+    
+    background-image: url('./images/rebecca-orlov-epic-playdate-HGVtA1zSHo4-unsplash.jpg');
+    background-size: cover;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex: 1.2;
+    width: 35%;
+
+  
+}
+
+.sect-right {
+   
+   background-color: blueviolet;
+   display: flex;
+   flex-direction: column;
+   flex: 2 ;
+
+   width: 65%;
+}
+
+.header {
+    background-color: #DAFFF5;
+    flex: 1;
+}
+
+.middle-right {
+    background-color: white;
+    flex: 1;
+}
+
+.footer {
+    background-color: #DAFFF5;
+    flex: 1;
+}
+.top {
+    
+    display: flex;
+    /* height: 120px;
+    margin-top: 30%;
+    width:100%; */
+    flex: 1;
+}
+
+.logo-sect {
+    height: 80px;
+    background-color: #123d2b8a;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.logo-sect img {
+    height: 85%;
+}
+
+.logo-sect span {
+    color: white;
+    font-size: 3em;
+    margin-top: 12px;
+}
+
+.middle-left {
+    flex: 1;
+}
+
+.bottom {
+    flex: 1;
+    
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.bottom a {
+    color:white;
+    
+}
+.link-text {
+    align-self: flex-end;
+    margin-bottom: 1em;
+    color: white;
+    background-color: #123d2b8a;
+    
+}
+
