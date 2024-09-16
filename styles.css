@@ -91,3 +91,17 @@ form {
 input[type="text"]:focus {
     border: 1px solid #555;
 }
+
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+input[type="password"]:invalid + span::after {
+    content: "* Passwords do not match";
+    color: red;
+    font-size: 12px;
+}
+
+input[type="email"]:invalid {
+    border: 2px solid red;
+    color: red;
+}
